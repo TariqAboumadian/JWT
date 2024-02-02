@@ -6,5 +6,6 @@ namespace JWT.Services
     {
         Task<AuthModeles> RegisterAsych(RegisterModel model);
         Task<AuthModeles> GetTokenAsync(TokenRequestModel model);
+        Task<string> AddRolesAsync(AddRoleModel model);
     }
 }
